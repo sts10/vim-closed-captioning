@@ -1,4 +1,4 @@
-# Vim Closed Captions
+# Vim Closed Captioning
 
 Vim plugin offering syntax highlighting and some mappings for dealing with srt (subrip) files. 
 
