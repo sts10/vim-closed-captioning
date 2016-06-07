@@ -1,0 +1,8 @@
+
+*closed-captioning.txt*  Syntax and Mapping for SRT Files
+
+Author:  Sam Schlinkert <http://samschlinkert.com/>
+
+Syntax highlighting and some helpful mappings for srt (subtitle) files.
+
+vim:tw=78:et:ft=help:norl:

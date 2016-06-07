@@ -1,0 +1,17 @@
+# Vim Closed Captions
+
+Vim plugin offering syntax highlighting and some mappings for dealing with srt (subrip) files. 
+
+## Mappings
+
+Use `<Leader>J` on the text of a subtitle to join it to the subtitle above it. This mapping also merges the in and out times in a logical way. 
+
+Use `<Leader>K` to split a subtitle. Leaves the user in `insert` mode to enter new in time for the split subtitle.
+
+If you don't map `<Leader>` in your `vimrc`, it is set to `\` by default. 
+
+Please submit an issue or pull request if you have suggestions for improving these mappings or new mappings that you find helpful when dealing with srt files! 
+
+## Syntax Highlighting
+
+Syntax highlighting adapted from [Josip Deanovic](http://www.linuxpages.org/srt.vim_en.php) ([here's a version on GitHub](https://github.com/narkisr/.vim/blob/master/syntax/srt.vim)). Special thanks to Drew Neil's [vim-subrip](https://github.com/nelstrom/vim-subrip) as well. 
