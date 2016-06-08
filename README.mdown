@@ -35,7 +35,13 @@ Senator, we're making
 our final approach into Coruscant.
 ```
 
-The `join` command also doesn't take a count, and none of the mappings work in any mode except `normal`. I also wish the `split` command could change the in and out times in some logical way. Lastly, wondering if there's a smart way to remap the increment and decrement commands: `<C-a>` and `<C-x>`.
+Other issues:
+
+- The `join` command also doesn't take a count, and none of the mappings work in any mode except `normal`. 
+- The dot command doesn't repeat either the join caption or split caption commands, even with [vim-repeat](https://github.com/tpope/vim-repeat) installed.
+- Ideally the `split` command could change the in and out times in some logical way. 
+- Wondering if there's a smart way to remap the increment and decrement commands: `<C-a>` and `<C-x>`.
+
 
 Please submit an issue or pull request if you have solutions to the above problems, suggestions for improving these mappings, or new mappings that you find helpful when dealing with `srt` files! 
 
