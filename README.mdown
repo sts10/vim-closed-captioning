@@ -1,10 +1,10 @@
 # Vim Closed Captioning
 
-Vim plugin offering syntax highlighting and some mappings for dealing with srt (subrip) files. 
+Vim plugin offering syntax highlighting and some mappings for dealing with `srt` (subrip) files. 
 
 ## Mappings
 
-Use `<Leader>J` on a subtitle to join the subtitle below it up to it (works like Vim's normal line join). This mapping also merges the in and out times in a logical way. 
+Use `<Leader>J` on a subtitle to join the subtitle below it up to it (works like Vim's normal line `join`-- see `:help J`). This mapping also merges the in and out times in a logical way. 
 
 Use `<Leader>K` to split a subtitle. Leaves the user in `insert` mode to enter new in time for the split subtitle.
 
@@ -13,7 +13,7 @@ If you don't map `<Leader>` in your `vimrc`, it is set to `\` by default.
 
 ## Mapping Bugs and Other Deficiencies 
 
-Biggest issue that I know of is that it won't work for subtitle with multiple lines of text. 
+Biggest issue that I know of is that it won't work for subtitles with multiple lines of text:
 
 ```
 1
@@ -22,7 +22,7 @@ Senator, we're making
 our final approach into Coruscant.
 ```
 
-The `join` command also doesn't take a count, and none of the mappings work in any mode except `normal`.
+The `join` command also doesn't take a count, and none of the mappings work in any mode except `normal`. I also wish the `split` command could change the in and out times in some logical way. Lastly, wondering if there's a smart way to remap the increment and decrement commands: `<C-a>` and `<C-x>`.
 
 Please submit an issue or pull request if you have solutions to the above problems, suggestions for improving these mappings, or new mappings that you find helpful when dealing with `srt` files! 
 
