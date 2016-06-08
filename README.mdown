@@ -10,6 +10,12 @@ Use `<Leader>K` to split a subtitle. Leaves the user in `insert` mode to enter n
 
 If you don't map `<Leader>` in your `vimrc`, it is set to `\` by default. 
 
+You can reassign these mappings if you choose. For example, if you wanted to use `gJ` and `gK`, put the following in your `vimrc`:
+
+```vim
+  nmap gJ <Plug>JoinCaption
+  nmap gK <Plug>SplitCaption
+```
 
 ## Mapping Bugs and Other Deficiencies 
 
